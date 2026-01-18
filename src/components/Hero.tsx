@@ -71,16 +71,12 @@ export function Hero() {
             transition={{ duration: 4, repeat: Infinity }}
             className="w-32 h-32 md:w-48 md:h-48 mx-auto mb-8 rounded-full border-4 border-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1 bg-gradient-to-br from-slate-900 via-blue-950 to-purple-950 overflow-hidden shadow-2xl shadow-purple-500/50"
           >
-            <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-400/20 to-purple-400/20 flex items-center justify-center overflow-hidden">
+            <div className="w-full h-full rounded-full bg-gradient-to-br from-blue-400/20 to-purple-400/20 flex items-center justify-center overflow-hidden relative">
               <img
                 src="/profile.jpg"
                 alt="Vishesh Ranjan"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  const fallback = e.currentTarget.parentElement;
-                  if (fallback) fallback.textContent = '🔒';
-                }}
+                className="w-full h-full object-cover rounded-full"
+                style={{ maxWidth: '100%', maxHeight: '100%' }}
               />
             </div>
           </motion.div>
