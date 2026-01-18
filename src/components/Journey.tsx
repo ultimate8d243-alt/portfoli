@@ -142,31 +142,16 @@ export function Journey() {
                   Vishesh Ranjan
                 </h3>
                 <p className="text-lg md:text-xl text-purple-300 font-semibold mb-6">
-                  Cybersecurity Specialist with a Unique Digital Journey
+                  Cybersecurity Specialist
                 </p>
               </div>
 
               <div className="space-y-4">
                 <p className="text-base md:text-lg text-gray-300 leading-relaxed">
-                  My path has taken me from exploring the depths of system vulnerabilities to mastering defensive security strategies.
-                </p>
-                <p className="text-base md:text-lg text-gray-300 leading-relaxed">
-                  As a Certified Ethical Hacker, I now leverage my extensive knowledge to protect systems and educate organizations about digital security threats.
-                </p>
-                <p className="text-base md:text-lg text-gray-400 leading-relaxed italic">
-                  "Because I used to be the monster under their bed, now I know exactly what I'm protecting people from."
+                  Dedicated to protecting digital assets and helping organizations strengthen their security posture.
                 </p>
               </div>
             </div>
-
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="inline-block"
-            >
-              <a href="#expertise" className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-mono font-bold rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition-all">
-                View Full Expertise →
-              </a>
-            </motion.div>
           </motion.div>
 
           {/* Right - Visual Element */}
@@ -188,7 +173,7 @@ export function Journey() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
-                    <Code2 className="text-white" size={24} />
+                    <Shield className="text-white" size={24} />
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Specialization</p>
